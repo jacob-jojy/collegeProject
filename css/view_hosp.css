@@ -1,0 +1,70 @@
+.breadscrum{
+    font-size: 16;
+    margin-left:24px;
+}
+.hospital-detail{
+    padding:16px 32px;
+    width:600px;
+    border:1px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.hospital-detail .name{
+    font-size: 28px;
+    font-weight: bold;
+}
+.hospital-detail .details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.hospital-detail .detail{
+    display: flex;
+    column-gap: 8px;
+    font-size: 18px;
+}
+.hospital-detail .details .q{
+    color: grey;
+}
+.hospital-detail .buttons{
+    display: flex;
+    column-gap: 12px;
+}
+.hospital-detail .btn{
+    padding:4px 40px;
+    color:white;
+    border-radius: 4px;
+    transition: .1s ease-in-out;
+}
+.hospital-detail .btn:hover{
+    color:white;
+}
+.hospital-detail .btn:active{
+    transform: scale(.95);
+}
+.hospital-detail .buttons .upBtn{
+    background: blue;
+}
+.hospital-detail .buttons .deBtn{
+    background: red;
+}
+.hospital-detail .buttons .acBtn{
+    background: green;
+}
+.tagg{
+    padding:1px 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.act{
+    background: rgb(136, 255, 136);
+    color:rgb(0, 154, 0);
+}
+.de{
+    background: rgb(255, 195, 195);
+    color:red;
+}

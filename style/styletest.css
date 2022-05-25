@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.login-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 100vh;
+  width: 100vw;
+}
+
+.reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  height: 100vh;
+  width: 100vw;
+}
+
+.part {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/s1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: snow;
+}
+
+.part1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/s2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part1 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: snow;
+}
+
+input {
+  padding: 8px 20px;
+}
+
+label {
+  color: #505050;
+  width: 100%;
+}
+
+.rmbr {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.chkbox {
+  margin-right: 4px;
+}
+
+.form {
+  background-color: #fff;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .inner {
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .inner .infield {
+  height: 3vw;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.form .inner .btnfield {
+  height: 3vw;
+  width: 100%;
+  background-color: #0790df;
+  border: none;
+  color: seashell;
+  border-radius: 10px;
+  margin-bottom: 1vw;
+}
+
+.form .inner .divider {
+  width: 100%;
+  text-align: center;
+  color: gray;
+}
+
+.form .inner .btnfield:hover {
+  background-color: #0e547c;
+  cursor: pointer;
+  pointer-events: lo;
+}
+
+.form .inner .headmsg {
+  margin-bottom: 55px;
+  color: #099b15;
+}
+
+.form .inner .headreg {
+  color: #099b15;
+  margin-bottom: 2vw;
+}
+
+.form .inner .loglink {
+  color: #f38200;
+  text-decoration: none;
+}
+
+.form .inner .loglink a:link {
+  color: #f38200;
+  text-decoration: none;
+}
+
+.form .inner .psw {
+  float: right;
+}
+
+.form .inner .btnsignup {
+  margin-top: 1vw;
+}
+
+.form .inner .psw a:link {
+  color: #f38200;
+  text-decoration: none;
+}
+
+.form .inner .cbox {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .inner .cbox div {
+  width: 50%;
+}
+/*# sourceMappingURL=styletest.css.map */
